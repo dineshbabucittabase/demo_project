@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: FIVETRAN_SOURCE
+    database: DEV1  
+    schema: RAW  
+    tables:
+      - name: RAW_GL_CHARGES      

@@ -1,0 +1,21 @@
+
+version: 2
+
+models:
+  - name: stg_gl_charges
+    description: "GL Charges Stage Table"
+    columns:
+      - name: lng_GL_Charges_Id_Nmbr
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: vw_gl_charges
+    description: "GL Charges Stage View"
+    columns:
+      - name: lng_GL_Charges_Id_Nmbr
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
