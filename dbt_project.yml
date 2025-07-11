@@ -35,3 +35,6 @@ models:
     stage:
       +schema: stage
       +materialized: view
+    dw:
+      +schema: dw
+      +materialized: view      
